@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: url("fondo.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.tarjeta {
+    background: rgba(0,0,0,0.7);
+    color: #00ff88;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: black;
+    color: #00ff88;
+    border: 2px solid #00ff88;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#oculto {
+    display: none;
+    margin-top: 15px;
+    font-style: italic;
+}
